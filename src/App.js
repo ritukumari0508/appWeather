@@ -21,6 +21,7 @@ class App extends React.Component {
       hourlyForecast: [],
       dailyForecast: [],
       max:"",
+      min: ""
      
 
 

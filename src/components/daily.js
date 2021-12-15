@@ -40,8 +40,8 @@ class Daily extends React.Component {
         return(
             <div className="forecast-item" key ={key}>
                 <p className='"forecast-item__time"'>{day}</p>
-                <p className="forecast-item__temp">{f.temp.max}</p>
-                
+                <p className="forecast-item__temp">max: {f.temp.max}</p>
+                <p className="forecast-item__temp">min: {f.temp.min}</p>
               <img className="forecast-item__img"src={URL} alt ={f.weather[0].description}/>
                 <p className='forecast-item__description'>{f.weather[0].main}</p>
             </div>
